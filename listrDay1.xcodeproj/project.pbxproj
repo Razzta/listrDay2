@@ -14,6 +14,7 @@
 		75E0B1B01BA789A900EBC2C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E0B1AF1BA789A900EBC2C6 /* Images.xcassets */; };
 		75E0B1B31BA789A900EBC2C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75E0B1B11BA789A900EBC2C6 /* LaunchScreen.xib */; };
 		75E0B1BF1BA789A900EBC2C6 /* listrDay1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E0B1BE1BA789A900EBC2C6 /* listrDay1Tests.swift */; };
+		75F6AF071BA8B59800520243 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F6AF061BA8B59800520243 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		75E0B1B81BA789A900EBC2C6 /* listrDay1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = listrDay1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E0B1BD1BA789A900EBC2C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75E0B1BE1BA789A900EBC2C6 /* listrDay1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listrDay1Tests.swift; sourceTree = "<group>"; };
+		75F6AF061BA8B59800520243 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				75E0B1A51BA789A900EBC2C6 /* AppDelegate.swift */,
 				75E0B1AA1BA789A900EBC2C6 /* ViewController.swift */,
 				75E0B1AC1BA789A900EBC2C6 /* Main.storyboard */,
+				75F6AF061BA8B59800520243 /* TableViewController.swift */,
 				75E0B1AF1BA789A900EBC2C6 /* Images.xcassets */,
 				75E0B1B11BA789A900EBC2C6 /* LaunchScreen.xib */,
 				75E0B1A71BA789A900EBC2C6 /* listrDay1.xcdatamodeld */,
@@ -217,6 +220,7 @@
 			files = (
 				75E0B1AB1BA789A900EBC2C6 /* ViewController.swift in Sources */,
 				75E0B1A61BA789A900EBC2C6 /* AppDelegate.swift in Sources */,
+				75F6AF071BA8B59800520243 /* TableViewController.swift in Sources */,
 				75E0B1A91BA789A900EBC2C6 /* listrDay1.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +419,7 @@
 				75E0B1C41BA789A900EBC2C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75E0B1C51BA789A900EBC2C6 /* Build configuration list for PBXNativeTarget "listrDay1Tests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +428,7 @@
 				75E0B1C71BA789A900EBC2C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
